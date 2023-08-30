@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+#logo {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#titulo-menusuperior {
+  max-width: 532px;
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 75px;
+  color: white;
+}
+
+#texto-menusuperior {
+  margin-left: 150px;
+  margin-top: 25px;
+  max-width: 532px;
+  font-size: 20px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+header {
+  background: url(../imagens/fundo-menusupeior.svg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100vw;
+}
+
+#menuinformacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+

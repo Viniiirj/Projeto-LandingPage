@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+  #logo {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+ #titulo-menusuperior {
+  max-width: 532px;
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 75px;
+}
+
+#texto-menusuperior {
+  margin-left: 150px;
+  margin-top: 25px;
+  max-width: 532px;
+  font-size: 20px;
+}
+}
+
+
+/* 
+#logo {
+  margin: 40px;
+}
+
+#titulo-menusuperior {
+  max-width: 532px;
+  font-size: 30px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#texto-menusuperior {
+  margin-left: 40px;
+  margin-top: 25px;
+  max-width: 532px;
+  font-size: 20px;
+}
+*/
