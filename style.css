@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior {
+    width: 532px;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#texto-menusuperior {
+    margin-left: 150px;
+    margin-top: 25px;
+    width: 532px;
+    font-size: 20px;
+}
