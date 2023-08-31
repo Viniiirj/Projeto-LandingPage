@@ -13,7 +13,7 @@
   font-size: 40px;
   margin-left: 150px;
   margin-top: 75px;
-  color: white;
+  line-height: 150%;
 }
 
 #texto-menusuperior {
@@ -22,7 +22,7 @@
   max-width: 532px;
   font-size: 20px;
   padding-bottom: 100px;
-  color: white;
+  line-height: 150%;
 }
 
 header {
@@ -30,13 +30,158 @@ header {
   background-position: center center;
   background-size: cover;
   width: 100vw;
+  color: white;
 }
 
 #menuinformacional {
-    background-color: #EAECE5;
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
 }
 
+.icones {
+  margin: 50px 0 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  gap: 16px;
+}
 
+#secaovideo h2 {
+  color: #247ba0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+#secaovideo p {
+  margin-top: 24px;
+  line-height: 150%;
+  font-size: 16px;
+}
+
+#secaovideo {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  max-width: 1200px;
+  height: 460px;
+  margin: auto;
+  gap: 50px;
+}
+
+.video {
+  margin: 100px auto 50px;
+}
+
+.texto {
+  max-width: 500px;
+  margin: 100px auto 50px;
+}
+
+#depoimentos {
+  background-color: #247ba0;
+  height: 450px;
+}
+
+#depoimentos > h1 {
+  padding-top: 80px;
+  padding-bottom: 64px;
+  color: #eaece5;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#carrossel {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+#bruna {
+  display: none;
+}
+
+#seta-esquerda {
+  display: none;
+}
+
+#seta-esquerda,
+#seta-direita {
+  cursor: pointer;
+}
+
+.seta {
+  transition: all 0.3s;
+}
+
+.seta:hover {
+  transform: scale(1.2);
+}
+
+#formulario {
+  background-color: white;
+  text-align: center;
+}
+
+#formulario > h1 {
+  color: #383838;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%;
+  padding-top: 22px;
+  padding-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: auto;
+}
+
+form input {
+  width: 413px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: #eaece5;
+  padding: 0 16px;
+  border: none;
+}
+
+#botao {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  width: 335px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: #247ba0;
+  margin-bottom: 30px;
+  border: none;
+cursor: pointer;
+transition: all .5s;
+}
+
+#botao:hover{
+    transform: scale(1.2);
+    background-color: #0b425a;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.39);
+}

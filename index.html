@@ -16,6 +16,7 @@
     <script src="index.js" defer></script>
   </head>
   <body>
+    <!-- Menu Superior -->
     <header>
       <img src="imagens/logo.svg" id="logo" alt="" />
       <h1 id="titulo-menusuperior">
@@ -26,13 +27,136 @@
         aprenda os principais fundamentos para construir experiências efetivas.
       </p>
     </header>
+
+    <!--Menu Informacional-->
+
     <div id="menuinformacional">
-      <img src="./icones/certificado.svg" alt="icone de certificado" />
-      <p>Certificado de conclusão</p>
-      <img src="./icones/relogio.svg" alt="icone de relogio" />
-      <p>4 horas de conteúdo</p>
-      <img src="./icones/camera.svg" alt="icone de uma camera" />
-      <p>Aulas online gravadas</p>
+      <div class="icones">
+        <img
+          src="./icones/certificado.svg"
+          id="certificado"
+          class="icone"
+          alt="icone de certificado"
+        />
+        <p>Certificado de conclusão</p>
+      </div>
+      <div class="icones">
+        <img
+          src="./icones/relogio.svg"
+          id="relogio"
+          class="icone"
+          alt="icone de relogio"
+        />
+        <p>4 horas de conteúdo</p>
+      </div>
+      <div class="icones">
+        <img
+          src="./icones/camera.svg"
+          id="camera"
+          class="icone"
+          alt="icone de uma camera"
+        />
+        <p>Aulas online gravadas</p>
+      </div>
+    </div>
+
+    <!--Seção Video-->
+
+    <div id="secaovideo">
+      <div class="video">
+        <iframe
+          width="502"
+          height="283"
+          src="https://www.youtube.com/embed/ITxGkd9h4n4?si=HlPTd6e72gAjnelD"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="texto">
+        <h2>Aprenda com especialistas e comece seu primeiro projeto</h2>
+        <p>
+          Conheça o processo de desenvolvimento e entenda como utilizar os
+          principais métodos e ferramentas da área para resolver problemas
+          complexos.
+        </p>
+
+        <p>
+          Conquiste seu certificado e desenvolva um projeto prático para aplicar
+          seus conhecimentos.
+        </p>
+      </div>
+    </div>
+
+    <!--Carrossel-->
+
+    <div id="depoimentos">
+      <h1>Mais de 500 alunos já iniciaram seus estudos</h1>
+      <div class="wrapper">
+        <div class="seta">
+          <img
+            id="seta-esquerda"
+            onclick="rolarParaEsquerda()"
+            src="./icones/seta-esquerda.svg"
+            alt=""
+          />
+        </div>
+        <div id="carrossel">
+          <img id="leonardo" class="card" src="./cards/leonardo.svg" alt="" />
+          <img id="samantha" class="card" src="./cards/samantha.svg" alt="" />
+          <img id="bruna" class="card" src="./cards/bruna.svg" alt="" />
+        </div>
+        <div class="seta">
+          <img
+            id="seta-direita"
+            src="./icones/seta-direita.svg"
+            onclick="rolarParaDireita()"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!--Formulario-->
+    <div id="formulario">
+      <h1>Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+      <form
+        action="https://api.sheetmonkey.io/form/viRJkgdv514dpUev6BKmRT"
+        method="post"
+        autocomplete="on"
+      >
+        <input
+          type="text"
+          name="Name"
+          id="Name"
+          placeholder="Nome"
+          autocomplete="name"
+          required
+        />
+        <input
+          type="email"
+          name="Email"
+          id="Email"
+          placeholder="E-mail"
+          autocomplete="email"
+          required
+        />
+        <input
+          type="tel"
+          name="Phone"
+          id="Phone"
+          placeholder="Telefone"
+          autocomplete="tel-local-prefix"
+          required
+        />
+        <input
+          type="hidden"
+          name="Created"
+          value="x-sheetmonkey-current-date-time"
+        />
+        <button type="submit" id="botao">Acesse a ementa grátis</button>
+      </form>
     </div>
   </body>
 </html>
